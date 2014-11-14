@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c1e2166-d18f-4bff-8d9f-900498c3a805" name="Default" comment="" />
+    <list default="true" id="3c1e2166-d18f-4bff-8d9f-900498c3a805" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-class/img/angularjs-hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-model/img/angularjs-hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-reapet/img/angularjs-hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice1/img/angularjs-hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-class/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-model/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-reapet/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice1/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-class/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-model/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-reapet/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice1/controllers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-class/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-model/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-reapet/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice1/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="ngApp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,19 +46,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-class/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="10" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.51086956" vertical-offset="222" max-vertical-offset="774">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootswatch.min.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/bootswatch.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="21" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
+            <state line="34" column="46" selection-start="1557" selection-end="1557" vertical-scroll-proportion="-11.538462" vertical-offset="312" max-vertical-offset="972">
               <folding />
             </state>
           </provider>
@@ -44,7 +58,34 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1062">
+            <state line="68" column="14" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1404">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-model/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-11.538462" vertical-offset="168" max-vertical-offset="738">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ng-model/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="8" selection-start="133" selection-end="133" vertical-scroll-proportion="0.1590106" vertical-offset="0" max-vertical-offset="566">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-class/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -65,8 +106,19 @@
       <list>
         <option value="$PROJECT_DIR$/public/css/bootswatch.min.css" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
-        <option value="$PROJECT_DIR$/public/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/practice/controllers.js" />
+        <option value="$PROJECT_DIR$/practice/app.js" />
+        <option value="$PROJECT_DIR$/practice/index.html" />
+        <option value="$PROJECT_DIR$/practice1/app.js" />
+        <option value="$PROJECT_DIR$/practice1/index.html" />
+        <option value="$PROJECT_DIR$/ng-reapet/app.js" />
+        <option value="$PROJECT_DIR$/ng-reapet/index.html" />
+        <option value="$PROJECT_DIR$/ng-class/app.js" />
+        <option value="$PROJECT_DIR$/ng-class/index.html" />
+        <option value="$PROJECT_DIR$/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/ng-model/index.html" />
+        <option value="$PROJECT_DIR$/ng-model/app.js" />
       </list>
     </option>
   </component>
@@ -103,7 +155,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -118,7 +169,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ngApp" />
+              <option name="myItemId" value="ebook" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -128,16 +179,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ngApp" />
+              <option name="myItemId" value="ebook" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="ng-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ebook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,7 +218,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/practice1" />
+      <recent name="$PROJECT_DIR$/practice" />
       <recent name="$PROJECT_DIR$/public/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/practice" />
     </key>
   </component>
   <component name="RunManager">
@@ -185,11 +261,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35139441" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35776892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -221,7 +297,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/practice/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="612">
           <folding />
@@ -242,16 +332,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.0" vertical-offset="399" max-vertical-offset="1062">
+        <state line="36" column="43" selection-start="1479" selection-end="1479" vertical-scroll-proportion="-15.692307" vertical-offset="240" max-vertical-offset="792" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="139" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/practice/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="10" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.51086956" vertical-offset="222" max-vertical-offset="774">
+        <state line="7" column="27" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="46" selection-start="1347" selection-end="1347" vertical-scroll-proportion="0.6195652" vertical-offset="162" max-vertical-offset="774">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice1/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice1/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="26" selection-start="151" selection-end="151" vertical-scroll-proportion="0.15228426" vertical-offset="0" max-vertical-offset="591">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice1/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="30" selection-start="1338" selection-end="1338" vertical-scroll-proportion="0.57608694" vertical-offset="186" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-reapet/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="12" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-reapet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="42" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.90217394" vertical-offset="204" max-vertical-offset="1098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-class/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-class/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="46" selection-start="1557" selection-end="1557" vertical-scroll-proportion="-11.538462" vertical-offset="312" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="14" selection-start="1494" selection-end="1494" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1404">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-model/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="1186" selection-end="1186" vertical-scroll-proportion="-11.538462" vertical-offset="168" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-model/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="133" selection-end="133" vertical-scroll-proportion="0.1590106" vertical-offset="0" max-vertical-offset="566">
           <folding />
         </state>
       </provider>

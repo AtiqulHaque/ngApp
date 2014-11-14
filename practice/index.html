@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="app">
 <head>
-    <link rel="stylesheet" href="public/lib/bootstrap/dist/css/bootstrap.css" media="screen">
-    <link rel="stylesheet" href="public/css/bootswatch.min.css">
+    <link rel="stylesheet" href="../public/lib/bootstrap/dist/css/bootstrap.css" media="screen">
+    <link rel="stylesheet" href="../public/css/bootswatch.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="public/css/styles.css">
+    <link rel="stylesheet" href="../public/css/styles.css">
     <title>Ebook Shop</title>
 </head>
 <body>
@@ -23,17 +23,16 @@
         </div>
     </nav>
     <div class="row">
-        <div class="col-md-8 col-md-offset-4">
-            <h1>Search Your Ebook</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <input type="text" class="form-control" name="search" id="search" placeholder="Type your book name">
+        <div class="col-md-12" ng-controller="MainController">
+            <h1>{{val}}</h1>
+            <button class="btn btn-default" ng-click="increment()">Increment</button>
+            <img src="./img/angularjs-hero.jpg">
         </div>
     </div>
 
+
 </div>
-<script type="application/javascript" src="public/lib/angularjs/angular.js"></script>
+<script type="application/javascript" src="../public/lib/angularjs/angular.js"></script>
+<script type="application/javascript" src="../practice/app.js"></script>
 </body>
 </html>
