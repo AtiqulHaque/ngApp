@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html ng-app="ebook">
 <head>
     <link rel="stylesheet" href="public/lib/bootstrap/dist/css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="public/css/bootswatch.min.css">
@@ -27,13 +27,47 @@
             <h1>Search Your Ebook</h1>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <input type="text" class="form-control" name="search" id="search" placeholder="Type your book name">
+    <div ng-controller="SearchController" class="row">
+        <ng-view></ng-view>
+        <div class="row">
+            <div class="col-md-7 col-md-offset-2">
+                <input type="text" placeholder="Type your book name" id="search" name="search" class="form-control" ng-model="searchValue">
+            </div>
+            <div class="col-md-1">
+                <button ng-click="search()" class="btn btn-default">Search</button>
+            </div>
+        </div>
+        <div class="row result-holder">
+            <div  class="col-md-2 product" ng-repeat="book in books">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span>
+                            {{book.Title}}
+                        </span>
+                    </div>
+                    <div class="col-md-12 ">
+                        <img class="img-responsive" src="{{book.Image}}">
+                    </div>
+                    <div class="col-md-12">
+                        <span>
+                            {{book.Description}}
+                        </span>
+                    </div>
+                    <div class="col-md-12">
+                        <a class="btn btn-info" href="#/atik">Details</a>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
 
 </div>
 <script type="application/javascript" src="public/lib/angularjs/angular.js"></script>
+<script type="application/javascript" src="../public/lib/angularjs/angular-route.min.js"></script>
+<script type="application/javascript" src="public/js/app.js"></script>
+<script ng-controller="SearchController" type="text/ng-template" id="view.html">
+    <h1>This is a template {{searchValue}}</h1>
+</script>
 </body>
 </html>
