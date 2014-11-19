@@ -1,87 +1,67 @@
 var app = angular.module('ebook',['ngRoute']);
 
-app.controller('SearchController',function($scope, $q,$http,constantService,BookRequestService){
-    $scope.searchValue = "";
-    $scope.search = function(){
-        BookRequestService.getBooks($scope.searchValue).then(function(data, status, headers, config){
-            $scope.books = data.data.Books;
-        },function(data, status, headers, config){
+    app.controller('SearchController',function($scope, $q,$http,constantService,BookRequestService){
+        $scope.searchValue  = $scope.searchValue || constantService.default.searchValue;
+        $scope.resultFound  = $scope.resultFound || constantService.default.resultFound;
+        $scope.errorMsg     = $scope.errorMsg    || constantService.default.errorMsg;
+        $scope.books        = $scope.books       || constantService.default.books ;
+        $scope.onProcess    = $scope.onProcess   || constantService.default.onProcess;
+        $scope.search = function(){
+            $scope.onProcess = true;
+            BookRequestService.getBooks($scope.searchValue).then(function(data){
+                $scope.resultFound = (data.data.Total == 0) ? false : true;
+                $scope.books = data.data.Books;
+                $scope.onProcess = false;
+            },function(error){
+                $scope.resultFound = false;
+                $scope.errorMsg = error.statusText;
+                $scope.onProcess = false;
+            });
+        }
+    });
+
+    app.controller('BookDetailsController',function($scope, $q,$http,constantService,BookRequestService,$routeParams){
+        BookRequestService.getBookDetails($routeParams.id).then(function(data){
+            $scope.result = data.data;
+        },function(error){
 
         });
-        /*$http.get(constantService.api.url+'php').
-            success(function(data, status, headers, config) {
-                // this callback will be called asynchronously
-                // when the response is availablet
-                console.log(data);
-                $scope.books = data.Books;
-            }).
-            error(function(data, status, headers, config) {
-                // called asynchronously if an error occurs
-                // or server returns response with an error status.
-            });*/
-    }
+    });
 
-    /*function loadUser(){
-        var deferred = $q.defer();
-        setTimeout(function(){
-            deferred.resolve({userName: "Atik",Id: "1426709",StafId : "0171623456"});
-        },1000);
+    app.constant('constantService',{
+        api:{
+            url:'http://it-ebooks-api.info/v1/',
+            page:1,
+            method:'get',
+            responseType:'json'
+        },
+        default:{
+            searchValue : '',
+            resultFound : true,
+            errorMsg    : 'No Book Found',
+            books : [],
+            onProcess : false
 
-        return deferred.promise;
-    }
-
-    function loadStaf(User){
-        var deferred = $q.defer();
-        setTimeout(function(){
-            deferred.resolve({userName: "Atik",Id: "1426709",StafId : User.Id});
-        },1000);
-        return deferred.promise;
-    }
-
-    $scope.loadData = function(){
-        loadUser().then(loadStaf)
-            .then(function(result){
-                alert(JSON.stringify(result));
-            },function(error){
-                alert(error);
-            });
-    };
-     .
-     success(function(data, status, headers, config) {
-     // this callback will be called asynchronously
-     // when the response is availablet
-     console.log(data);
-     $scope.books = data.Books;
-     }).
-     error(function(data, status, headers, config) {
-     // called asynchronously if an error occurs
-     // or server returns response with an error status.
-     }
-*/
-
-
-});
-
-app.constant('constantService',{
-    api:{
-        url:'http://it-ebooks-api.info/v1/search/',
-        page:1,
-        method:'get',
-        responseType:'json'
-    }
-});
-
-app.factory('BookRequestService',function(constantService,$q,$http){
-    var deferred = $q.defer();
-    return {
-        getBooks : function(params){
-            return $http.get(constantService.api.url+params);
         }
-    }
-});
+    });
 
-app.config(function($routeProvider){
-    $routeProvider.when('/atik',{templateUrl:'view.html',controller:'SearchController'});
-});
+    app.factory('BookRequestService',function(constantService,$http){
+        return {
+            getBooks : function(params){
+                return $http.get(constantService.api.url+"search/"+params);
+            },
+            getBookDetails : function(id){
+                return $http.get(constantService.api.url+"book/"+id);
+            }
+        }
+    });
+
+    app.config(function($routeProvider){
+        $routeProvider
+            .when('/',{templateUrl:'home.html'})
+            .when('/book/:id',{templateUrl:'details.html'})
+            .otherwise({template:'Could not match route'});
+    });
+
 
 

@@ -22,52 +22,105 @@
             </div>
         </div>
     </nav>
-    <div class="row">
-        <div class="col-md-8 col-md-offset-4">
-            <h1>Search Your Ebook</h1>
+    <ng-view></ng-view>
+
+
+</div>
+<script type="application/javascript" src="public/lib/angularjs/angular.js"></script>
+<script type="application/javascript" src="public/lib/angularjs/angular-route.min.js"></script>
+<script type="application/javascript" src="public/js/app.js"></script>
+<script ng-controller="SearchController" type="text/ng-template" id="details.html">
+    <div ng-controller="BookDetailsController" class="row">
+        <div class="col-md-9 col-md-offset-2">
+            <div class="col-md-3">
+                <img height="500" class="img-responsive" src="{{result.Image}}">
+            </div>
+            <div class="col-md-8">
+                <div class="col-md-12">
+                    <b>Author</b>
+                </div>
+                <div class="col-md-12">
+                    {{result.Author}}
+                </div>
+                <div class="col-md-12">
+                    <b>Description</b>
+                </div>
+                <div class="col-md-12">
+                    {{result.Description}}
+                </div>
+
+                <div class="col-md-12">
+                    <b>Publisher</b>
+                </div>
+                <div class="col-md-12">
+                    {{result.Publisher}}
+                </div>
+                <div class="col-md-12">
+                    <b>Year</b>
+                </div>
+                <div class="col-md-12">
+                    {{result.Year}}
+                </div>
+
+                <div class="col-md-12">
+                    <b>ISBN</b>
+                </div>
+                <div class="col-md-12">
+                    {{result.ISBN}}
+                </div>
+                <div class="col-md-12">
+                    <a target="_blank" href="{{result.Download}}" class="btn btn-default">Download</a>
+                    <a  href="/" class="btn btn-default">Back</a>
+                </div>
+            </div>
         </div>
     </div>
+</script>
+
+
+<script ng-controller="SearchController" type="text/ng-template" id="home.html">
     <div ng-controller="SearchController" class="row">
-        <ng-view></ng-view>
         <div class="row">
             <div class="col-md-7 col-md-offset-2">
                 <input type="text" placeholder="Type your book name" id="search" name="search" class="form-control" ng-model="searchValue">
             </div>
             <div class="col-md-1">
                 <button ng-click="search()" class="btn btn-default">Search</button>
+
             </div>
         </div>
-        <div class="row result-holder">
-            <div  class="col-md-2 product" ng-repeat="book in books">
+        <div ng-show="resultFound" class="row result-holder">
+            <div class="loading" ng-show="onProcess">
+            <div class="img"><img src="public/image/loader.gif"></div>
+            </div>
+            <div  class="col-md-2 product" ng-repeat-start="book in books track by $index">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 title">
                         <span>
                             {{book.Title}}
                         </span>
                     </div>
                     <div class="col-md-12 ">
-                        <img class="img-responsive" src="{{book.Image}}">
+                        <img height="500" class="img-responsive" src="{{book.Image}}">
                     </div>
                     <div class="col-md-12">
                         <span>
-                            {{book.Description}}
+                            {{book.Description | limitTo:200 }}
                         </span>
                     </div>
                     <div class="col-md-12">
-                        <a class="btn btn-info" href="#/atik">Details</a>
+                        <a class="btn btn-info" href="#/book/{{book.ID}}">Details</a>
                     </div>
-
                 </div>
+            </div>
+            <div ng-repeat-end class="row" ng-show="{{$index == 4}}"></div>
+        </div>
+        <div ng-hide="resultFound" class="row">
+            <div class="col-md-7 col-md-offset-2">
+                <h1>Error : {{errorMsg}}</h1>
             </div>
         </div>
     </div>
-
-</div>
-<script type="application/javascript" src="public/lib/angularjs/angular.js"></script>
-<script type="application/javascript" src="../public/lib/angularjs/angular-route.min.js"></script>
-<script type="application/javascript" src="public/js/app.js"></script>
-<script ng-controller="SearchController" type="text/ng-template" id="view.html">
-    <h1>This is a template {{searchValue}}</h1>
 </script>
 </body>
 </html>

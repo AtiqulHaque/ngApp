@@ -75,3 +75,24 @@
 .result-holder{
     margin-top: 30px;
 }
+.product img{
+    height: 300px;
+}
+.product .title{
+    min-height: 50px;
+    font-weight: 600;
+}
+.loading{
+    position: relative;
+}
+.loading .img{
+    position: absolute;
+    right: 45%;
+    top: 30%;
+}
+.loading .img img{
+    height: 200px;
+    width: 206px;
+}
+
+
