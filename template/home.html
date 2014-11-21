@@ -1,0 +1,26 @@
+<div ng-controller="SearchController" class="row">
+    <div class="row">
+        <div class="col-md-7 col-md-offset-2">
+            <input type="text" placeholder="Type your book name" id="search" name="search" class="form-control search-form" ng-model="searchValue">
+        </div>
+        <div class="col-md-1">
+            <button ng-click="search()" class="btn btn-default search-btn">Search</button>
+
+        </div>
+    </div>
+    <div ng-show="resultFound" class="row result-holder" infinite-scroll='search(1)' infinite-scroll-distance='1' infinite-scroll-disabled='busy' >
+        <div class="loading" ng-show="onProcess">
+            <div class="img"><img src="public/image/loader1.gif"></div>
+        </div>
+
+        <div  class="col-md-2 product" ng-repeat-start="book in books track by $index">
+            <photo title="{{book.Title}}" description="{{book.Description | limitTo:200 }}" link="#/book/{{book.ID}}" img="{{book.Image}}"/>
+        </div>
+        <div ng-repeat-end class="row" ng-show="{{$index == 4}}"></div>
+    </div>
+    <div ng-hide="resultFound" class="row">
+        <div class="col-md-7 col-md-offset-2">
+            <h1>Error : {{errorMsg}}</h1>
+        </div>
+    </div>
+</div>

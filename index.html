@@ -9,118 +9,35 @@
 </head>
 <body>
 <div class="container">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"></a>
-            </div>
+    <div class="row header-box">
+        <div class="col-md-4 logo-holder">
+        <div class="logo"></div>
         </div>
-    </nav>
-    <ng-view></ng-view>
+        <div class="col-md-8">
+            <div class="col-md-12 social-icon-holder">
+                <a class="btn btn-social-icon btn-twitter div-social-icon">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </a>
+                <a class="btn btn-social-icon div-social-icon">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </a>
+                <a class="btn btn-social-icon btn-twitter div-social-icon">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="row content-box">
+        <ng-view></ng-view>
+    </div>
 
 
 </div>
+<script type="application/javascript" src="public/lib/jquery/dist/jquery.js"></script>
 <script type="application/javascript" src="public/lib/angularjs/angular.js"></script>
 <script type="application/javascript" src="public/lib/angularjs/angular-route.min.js"></script>
+<script type="application/javascript" src="public/lib/angularjs/ng-infinite-scroll.js"></script>
 <script type="application/javascript" src="public/js/app.js"></script>
-<script ng-controller="SearchController" type="text/ng-template" id="details.html">
-    <div ng-controller="BookDetailsController" class="row">
-        <div class="col-md-9 col-md-offset-2">
-            <div class="col-md-3">
-                <img height="500" class="img-responsive" src="{{result.Image}}">
-            </div>
-            <div class="col-md-8">
-                <div class="col-md-12">
-                    <b>Author</b>
-                </div>
-                <div class="col-md-12">
-                    {{result.Author}}
-                </div>
-                <div class="col-md-12">
-                    <b>Description</b>
-                </div>
-                <div class="col-md-12">
-                    {{result.Description}}
-                </div>
-
-                <div class="col-md-12">
-                    <b>Publisher</b>
-                </div>
-                <div class="col-md-12">
-                    {{result.Publisher}}
-                </div>
-                <div class="col-md-12">
-                    <b>Year</b>
-                </div>
-                <div class="col-md-12">
-                    {{result.Year}}
-                </div>
-
-                <div class="col-md-12">
-                    <b>ISBN</b>
-                </div>
-                <div class="col-md-12">
-                    {{result.ISBN}}
-                </div>
-                <div class="col-md-12">
-                    <a target="_blank" href="{{result.Download}}" class="btn btn-default">Download</a>
-                    <a  href="/" class="btn btn-default">Back</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</script>
-
-
-<script ng-controller="SearchController" type="text/ng-template" id="home.html">
-    <div ng-controller="SearchController" class="row">
-        <div class="row">
-            <div class="col-md-7 col-md-offset-2">
-                <input type="text" placeholder="Type your book name" id="search" name="search" class="form-control" ng-model="searchValue">
-            </div>
-            <div class="col-md-1">
-                <button ng-click="search()" class="btn btn-default">Search</button>
-
-            </div>
-        </div>
-        <div ng-show="resultFound" class="row result-holder">
-            <div class="loading" ng-show="onProcess">
-            <div class="img"><img src="public/image/loader.gif"></div>
-            </div>
-            <div  class="col-md-2 product" ng-repeat-start="book in books track by $index">
-                <div class="row">
-                    <div class="col-md-12 title">
-                        <span>
-                            {{book.Title}}
-                        </span>
-                    </div>
-                    <div class="col-md-12 ">
-                        <img height="500" class="img-responsive" src="{{book.Image}}">
-                    </div>
-                    <div class="col-md-12">
-                        <span>
-                            {{book.Description | limitTo:200 }}
-                        </span>
-                    </div>
-                    <div class="col-md-12">
-                        <a class="btn btn-info" href="#/book/{{book.ID}}">Details</a>
-                    </div>
-                </div>
-            </div>
-            <div ng-repeat-end class="row" ng-show="{{$index == 4}}"></div>
-        </div>
-        <div ng-hide="resultFound" class="row">
-            <div class="col-md-7 col-md-offset-2">
-                <h1>Error : {{errorMsg}}</h1>
-            </div>
-        </div>
-    </div>
-</script>
 </body>
 </html>

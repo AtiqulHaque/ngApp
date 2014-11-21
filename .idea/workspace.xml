@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c1e2166-d18f-4bff-8d9f-900498c3a805" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng-route/app.js" afterPath="$PROJECT_DIR$/ng-route/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/details.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/lib/angularjs/ng-infinite-scroll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/template/photo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng-reapet/app.js" afterPath="$PROJECT_DIR$/ng-reapet/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ng-reapet/index.html" afterPath="$PROJECT_DIR$/ng-reapet/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/styles.css" afterPath="$PROJECT_DIR$/public/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,8 +37,28 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="29" selection-start="1760" selection-end="1760" vertical-scroll-proportion="1.2145329" vertical-offset="54" max-vertical-offset="1314">
+            <state line="106" column="19" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.17399618" vertical-offset="1817" max-vertical-offset="2340">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-reapet/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="48" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-15.0" vertical-offset="78" max-vertical-offset="792">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-reapet/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="9" selection-start="1160" selection-end="1583" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1026">
+              <folding>
+                <marker date="1416596146702" expanded="true" signature="1106:1132" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,48 +66,34 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="62" selection-start="3734" selection-end="3734" vertical-scroll-proportion="-9.461538" vertical-offset="1428" max-vertical-offset="2358">
-              <folding>
-                <marker date="1416425363107" expanded="true" signature="1522:3016" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="1569:3005" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="1604:1704" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="1739:2990" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="1779:1836" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="1876:1937" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="1977:2039" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="2079:2145" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="2186:2246" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="2286:2350" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="2390:2445" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="2485:2544" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="2585:2640" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="2680:2739" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="2779:2971" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3164:4906" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3190:3554" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3241:3400" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3435:3539" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3616:4716" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3670:3760" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3852:4625" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3886:4606" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3936:4069" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="3967:4042" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="4114:4228" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="4272:4426" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="4303:4399" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="4470:4583" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="4764:4895" placeholder="..." />
-                <marker date="1416425363107" expanded="true" signature="4815:4880" placeholder="..." />
-              </folding>
+            <state line="10" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="-6.923077" vertical-offset="0" max-vertical-offset="864">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/styles.css">
+      <file leaf-file-name="details.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="89" column="13" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="1191" max-vertical-offset="1872">
+            <state line="48" column="6" selection-start="1687" selection-end="1687" vertical-scroll-proportion="-19.384615" vertical-offset="360" max-vertical-offset="972">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="6" selection-start="1210" selection-end="1210" vertical-scroll-proportion="-17.307692" vertical-offset="0" max-vertical-offset="558">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photo.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/template/photo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="-7.6153846" vertical-offset="0" max-vertical-offset="342">
               <folding />
             </state>
           </provider>
@@ -108,8 +119,6 @@
         <option value="$PROJECT_DIR$/practice/index.html" />
         <option value="$PROJECT_DIR$/practice1/app.js" />
         <option value="$PROJECT_DIR$/practice1/index.html" />
-        <option value="$PROJECT_DIR$/ng-reapet/app.js" />
-        <option value="$PROJECT_DIR$/ng-reapet/index.html" />
         <option value="$PROJECT_DIR$/ng-class/app.js" />
         <option value="$PROJECT_DIR$/ng-class/index.html" />
         <option value="$PROJECT_DIR$/ng-model/index.html" />
@@ -124,8 +133,15 @@
         <option value="$PROJECT_DIR$/public/js/ap.js" />
         <option value="$PROJECT_DIR$/ng-route/index.html" />
         <option value="$PROJECT_DIR$/ng-route/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/lib/angularjs/angular.js" />
         <option value="$PROJECT_DIR$/public/css/styles.css" />
+        <option value="$PROJECT_DIR$/ng-reapet/index.html" />
+        <option value="$PROJECT_DIR$/ng-reapet/app.js" />
+        <option value="$PROJECT_DIR$/template/phpto.html" />
+        <option value="$PROJECT_DIR$/template/photo.html" />
+        <option value="$PROJECT_DIR$/template/home.html" />
+        <option value="$PROJECT_DIR$/template/details.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
       </list>
     </option>
@@ -133,9 +149,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1301" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -163,7 +179,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -192,84 +207,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ngApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ebook" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ng-route" />
+              <option name="myItemId" value="template" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,13 +241,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template" />
+      <recent name="$PROJECT_DIR$/public/lib/angularjs" />
       <recent name="$PROJECT_DIR$/public/image" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/practice1" />
-      <recent name="$PROJECT_DIR$/practice" />
-      <recent name="$PROJECT_DIR$/public/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/lib/angularjs" />
       <recent name="$PROJECT_DIR$/practice" />
     </key>
   </component>
@@ -334,10 +279,15 @@
       <created>1415974093235</created>
       <updated>1415974093235</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add loader image and some css correction...">
+      <created>1416426056703</created>
+      <updated>1416426056703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -345,7 +295,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37768924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3075697" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -355,6 +305,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -372,82 +323,13 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Add loader image and some css correction..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add loader image and some css correction..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ng-route/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="1198" selection-end="1198" vertical-scroll-proportion="0.0" vertical-offset="42" max-vertical-offset="810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="3" selection-start="2221" selection-end="2221" vertical-scroll-proportion="0.0" vertical-offset="1278" max-vertical-offset="1674">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="40" selection-start="2949" selection-end="2949" vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="1404">
-          <folding>
-            <marker date="1416425363107" expanded="true" signature="1522:3016" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1569:3005" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1604:1704" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1739:2990" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1779:1836" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1876:1937" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1977:2039" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2079:2145" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2186:2246" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2286:2350" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2390:2445" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2485:2544" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2585:2640" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2680:2739" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2779:2971" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3164:4906" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3190:3554" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3241:3400" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3435:3539" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3616:4716" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3670:3760" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3852:4625" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3886:4606" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3936:4069" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3967:4042" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4114:4228" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4272:4426" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4303:4399" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4470:4583" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4764:4895" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4815:4880" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng-route/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="83" selection-start="171" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng-route/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="43" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng-route/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ng-route/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="43" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0" vertical-offset="648" max-vertical-offset="810" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ng-route/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="56" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="252" />
@@ -573,11 +455,6 @@
         <state line="5" column="26" selection-start="151" selection-end="151" vertical-scroll-proportion="0.15228426" vertical-offset="0" max-vertical-offset="591" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng-reapet/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ng-class/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="159" selection-end="159" vertical-scroll-proportion="0.18274112" vertical-offset="0" max-vertical-offset="591" />
@@ -628,11 +505,6 @@
         <state line="27" column="26" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.557971" vertical-offset="178" max-vertical-offset="756" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ng-reapet/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="26" selection-start="1521" selection-end="2039" vertical-scroll-proportion="-12.923077" vertical-offset="420" max-vertical-offset="1098" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ng-promise/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="0" selection-start="0" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
@@ -653,55 +525,88 @@
         <state line="19" column="6" selection-start="641" selection-end="641" vertical-scroll-proportion="0.5786802" vertical-offset="0" max-vertical-offset="1116" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/public/lib/angularjs/angular.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="62" selection-start="3734" selection-end="3734" vertical-scroll-proportion="-9.461538" vertical-offset="1428" max-vertical-offset="2358">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/angularjs/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25716" column="3" selection-start="933908" selection-end="933908" vertical-scroll-proportion="0.0" vertical-offset="462276" max-vertical-offset="462276">
           <folding>
-            <marker date="1416425363107" expanded="true" signature="1522:3016" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1569:3005" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1604:1704" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1739:2990" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1779:1836" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1876:1937" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="1977:2039" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2079:2145" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2186:2246" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2286:2350" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2390:2445" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2485:2544" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2585:2640" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2680:2739" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="2779:2971" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3164:4906" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3190:3554" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3241:3400" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3435:3539" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3616:4716" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3670:3760" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3852:4625" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3886:4606" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3936:4069" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="3967:4042" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4114:4228" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4272:4426" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4303:4399" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4470:4583" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4764:4895" placeholder="..." />
-            <marker date="1416425363107" expanded="true" signature="4815:4880" placeholder="..." />
+            <element signature="e#932143#933446#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="13" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.0" vertical-offset="1191" max-vertical-offset="1872">
+        <state line="11" column="92" selection-start="250" selection-end="250" vertical-scroll-proportion="-6.6" vertical-offset="0" max-vertical-offset="2646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-reapet/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="9" selection-start="1160" selection-end="1583" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1026">
+          <folding>
+            <marker date="1416596146702" expanded="true" signature="1106:1132" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/angularjs/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="31.44" vertical-offset="786" max-vertical-offset="1314">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/lib/angularjs/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/photo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="397" selection-end="397" vertical-scroll-proportion="-7.6153846" vertical-offset="0" max-vertical-offset="342">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-reapet/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="48" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-15.0" vertical-offset="78" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="6" selection-start="1210" selection-end="1210" vertical-scroll-proportion="-17.307692" vertical-offset="0" max-vertical-offset="558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="6" selection-start="1687" selection-end="1687" vertical-scroll-proportion="-19.384615" vertical-offset="360" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="-6.923077" vertical-offset="0" max-vertical-offset="864">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="29" selection-start="1760" selection-end="1760" vertical-scroll-proportion="1.2145329" vertical-offset="54" max-vertical-offset="1314">
+        <state line="106" column="19" selection-start="3570" selection-end="3570" vertical-scroll-proportion="0.17399618" vertical-offset="1817" max-vertical-offset="2340">
           <folding />
         </state>
       </provider>

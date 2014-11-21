@@ -24,33 +24,16 @@
     </nav>
     <div class="row">
         <div class="col-md-12" ng-controller="MainController">
-            <div class="col-md-12">
-                <button class="btn btn-default" ng-click="show()">Show</button>
-                <button class="btn btn-default" ng-click="hide()">Hide</button>
-            </div>
-            <div class="row">
-                <div class="col-md-3 img-box" ng-repeat="val in arr">
-                    <div  class="col-md-col-12 product">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img class="img-responsive" ng-show="val" src="./img/angularjs-hero.jpg">
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-md-12">
-                                {{val.name}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
+            <hello-world author="Md.Atiqul Haque"></hello-world>
         </div>
     </div>
 
 
 </div>
+<script type="application/javascript" src="../public/lib/jquery/dist/jquery.js"></script>
 <script type="application/javascript" src="../public/lib/angularjs/angular.js"></script>
+<script type="application/javascript" src="../public/lib/angularjs/angular-route.min.js"></script>
+<script type="application/javascript" src="../public/lib/angularjs/ng-infinite-scroll.js"></script>
 <script type="application/javascript" src="../ng-reapet/app.js"></script>
 </body>
 </html>

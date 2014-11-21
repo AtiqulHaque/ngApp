@@ -1,0 +1,49 @@
+<div ng-controller="BookDetailsController" class="row details">
+    <div class="col-md-12 ">
+        <div class="loading" ng-show="onProcess">
+            <div class="img"><img src="public/image/loader1.gif"></div>
+        </div>
+        <div class="col-md-3">
+            <img height="500" class="img-responsive" src="{{result.Image}}">
+        </div>
+
+        <div class="col-md-8">
+            <div class="col-md-12 book-detail-title">
+                <b>Author</b>
+            </div>
+            <div class="col-md-12 books-details">
+                {{result.Author}}
+            </div>
+            <div class="col-md-12 book-detail-title">
+                <b>Description</b>
+            </div>
+            <div class="col-md-12 books-details">
+                {{result.Description}}
+            </div>
+
+            <div class="col-md-12 book-detail-title">
+                <b>Publisher</b>
+            </div>
+            <div class="col-md-12 books-details">
+                {{result.Publisher}}
+            </div>
+            <div class="col-md-12 book-detail-title">
+                <b>Year</b>
+            </div>
+            <div class="col-md-12 books-details">
+                {{result.Year}}
+            </div>
+
+            <div class="col-md-12 book-detail-title">
+                <b>ISBN</b>
+            </div>
+            <div class="col-md-12 books-details">
+                {{result.ISBN}}
+            </div>
+            <div class="col-md-12 books-details">
+                <a target="_blank" href="{{result.Download}}" class="btn btn-default">Download</a>
+                <a  href="/" class="btn btn-default">Back</a>
+            </div>
+        </div>
+    </div>
+</div>

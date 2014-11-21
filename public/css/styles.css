@@ -1,5 +1,19 @@
+body{
+    background: url("/public/image/bg-pattern.png") repeat;
+}
 .container{
-    margin-top: 50px;
+    margin-top: 30px;
+    width: 1040px;
+}
+.header-box{
+
+}
+.header-box .logo{
+    background: url("/public/image/cropped-copy-nullit_logo.png") no-repeat scroll 0 0 / 204px auto rgba(0, 0, 0, 0);
+    height: 80px;
+}
+.content-box{
+    margin-top: 35px;
 }
 
 .search-form .form-group {
@@ -37,26 +51,17 @@
     width: 100%;
     border-radius: 4px 25px 25px 4px;
 }
-.search-form .form-group span.form-control-feedback {
-    position: absolute;
-    top: -1px;
-    right: -2px;
-    z-index: 2;
-    display: block;
-    width: 34px;
-    height: 34px;
-    line-height: 34px;
-    text-align: center;
-    color: #3596e0;
-    left: initial;
-    font-size: 14px;
+#search{
+    padding-top: 0px;
 }
 
 .product{
     border-radius: 3px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    margin: 5px 5px 5px 30px;
     padding: 10px;
-    margin: 5px 5px 5px 35px;
+    background-color: #ffffff;
+    min-height: 600px;
 }
 .img-box{
     margin-top: 10px;
@@ -89,10 +94,48 @@
     position: absolute;
     right: 45%;
     top: 30%;
+    z-index: 1000;
 }
 .loading .img img{
-    height: 200px;
-    width: 206px;
+    height: 128px;
+    width: 128px;
+}
+.search-form{
+    font-size: 30px;
+    height: 57px
+}
+.search-btn{
+    font-size: 30px;
+    height: 55px;
+    padding: 0 13px;
+}
+
+.div-social-icon{
+    background-color: #ffffff;
+    border-radius: 180px;
+    color: #afafaf;
+    height: 50px;
+    padding: 10px;
+    width: 50px;
+}
+.social-icon-holder{
+    text-align: right;
+    padding-top: 15px;
+}
+.social-icon-holder a:hover{
+    color: #000000;
+}
+.details{
+    background: none repeat scroll 0 0 #fff;
+    padding: 30px 29px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+.books-details, .book-detail-title{
+    padding: 8px;
+}
+.logo-holder{
+    padding: 0px;
 }
 
 
